@@ -225,7 +225,7 @@ header {
 
 @media screen and (min-width: 1024px){
     .section-welcome{
-        padding
+        padding: 0 0 0 0;
     }
 }
 
@@ -262,7 +262,7 @@ header {
 @media screen and (min-width: 1024px){
     .section-contact-form-inner{
         padding: 18px 0 70px;
-        background-color: ;
+
     }
 }
 
