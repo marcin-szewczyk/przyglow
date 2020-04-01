@@ -76,6 +76,10 @@ a {
 	text-decoration: none; /*usuniecie podkreslen np w odnosnikach*/
 }
 
+a:visited{
+    color: black;
+} 
+
 img {
 	max-width: 100%;
 }
@@ -108,7 +112,7 @@ p {
 
 @media screen and (min-width: 1024px) {
 	p {
-        font-size: 18px;
+        font-size: 17px;
         
 	}
 }
@@ -167,11 +171,12 @@ header {
         padding: 200px 0 ;
         background: url('images/tlo.JPG') 0 0;
         background-size: cover;
-        font-size: 90px;
+        font-size: 75px;
         line-height: 1.4;
         height: 30%;
     }
 }
+
 
     nav li{
         display:block;
@@ -192,12 +197,13 @@ header {
 
 @media screen and (min-width: 1024px){
     .header_li_0:hover{
-        background: rgb(177, 176, 176);
+        background: #b1b0b0;
     }
 }
 @media screen and (min-width: 1024px){
     .header_li_1:hover{
         background: darkgray;
+        text-decoration: none;
     }
 }
 @media screen and (min-width: 1024px){
@@ -217,7 +223,6 @@ header {
 
 .section-welcome{
     text-align: center;
-    border-bottom: 0.1px solid #e0dddd;
     padding: 0 0 45px 0;
    
 }
@@ -226,7 +231,7 @@ header {
 
 @media screen and (min-width: 1024px){
     .section-welcome{
-        padding: 0 0 0 0;
+        padding: 0 0 50px 0;
     }
 }
 
@@ -280,6 +285,63 @@ header {
 @media screen and (min-width: 1024px){
     .section-contact-form input,
     .section-contact-form textarea{
-        width: 30%;
+        width: 99%;
+        height: 30px;
     }
 }
+
+textarea {
+ min-width: 270px;
+ max-width: 270px;
+ min-height: 100px;
+ max-height: 100px;
+}
+
+@media screen and (min-width: 1024px){
+    textarea {
+    resize: none;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 120px;
+    max-height: 120px;
+    }
+  }
+
+  .section-contact-background{
+      background-color: #f1f1ec;
+      margin: 0 15%;
+  }
+
+  @media screen and (min-width: 1024px){
+    .section-contact-background{
+        margin: 0 35%;
+    }
+  }
+
+  .social-links{
+      text-align: center;
+  }
+
+  .social-links img{
+    margin: 8% 0;
+    max-width: 10%;
+    padding: 0 1%;
+  }
+
+  @media screen and (min-width: 1024px){
+    .social-links img{
+        margin: 20px 0;
+        max-width: 10%;
+        padding: 0 1%;
+      }
+  }
+
+  footer{
+      padding: 20px 0;
+      font-size: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    @media screen and (min-width: 1024px)
